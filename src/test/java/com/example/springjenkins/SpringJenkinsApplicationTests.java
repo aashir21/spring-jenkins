@@ -9,14 +9,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@SpringBootTest
 @RunWith(SpringRunner.class)
+@SpringBootTest
 class SpringJenkinsApplicationTests {
 
-	public static final Logger LOGGER = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+	public static Logger LOGGER = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 		LOGGER.info("Test case is running");
 		assertEquals(true, true);
 	}
